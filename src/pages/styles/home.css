@@ -1,0 +1,116 @@
+.home-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.home{
+    height: 100vh ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.home-elements{
+    margin-bottom: 7em;
+    width: 650px;
+}
+
+.home-title{
+    width: 100%;
+    height: 121px;
+    background-image: url('../../img/pokedex.svg');
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.home-welcome{
+
+font-style: normal;
+font-weight: 700;
+font-size: 2.5rem;
+line-height: 61px;
+text-align: center;
+color: #FE1936;
+padding: 1em 0 0 0;
+
+}
+
+.home-giveuser {
+text-align: center;
+}
+
+.home-footer{
+    height: 160px;
+    width: 100%;
+    background-image: url('../../img/homeFooter.svg');
+    background-position:bottom;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+@media  (min-width: 1440px){
+    .home-footer{
+        height: 160px;
+        width: 100%;
+        background-size: cover; 
+    }
+}
+
+@media  (max-width: 1200px){
+    .home-elements{
+        width: 550px;
+    }
+
+    .home-footer{
+        height: 150px;
+        width: 100%;
+        background-size:cover; 
+    }
+}
+
+@media (max-width: 800px){
+    .home-elements{
+        width: 380px;
+}
+
+.home-footer{
+        height: 140px;
+        width: 100%;
+        max-width: 800px;
+        background-size: cover;
+    } 
+} 
+@media (max-width: 500px){
+.home{
+    height: 93vh;
+    width: 100%;
+    } 
+
+.home-footer{
+    height: 120px;
+    width: 100%;
+    background-size: cover;
+    } 
+}
+@media (max-width: 400px){
+.home{
+    height: 92vh;
+    width: 100%;
+}    
+.home-footer{
+    height: 110px;
+    width: 100%;  
+    background-size: cover;
+}     
+    
+
+}

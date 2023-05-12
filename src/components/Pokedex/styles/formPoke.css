@@ -1,0 +1,65 @@
+.formPoke__container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.formPoke__form{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formPoke__form input{
+    border-radius: .1em 0 0 .1em;
+    width: 12em;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.25);
+    border-color: transparent;
+}
+
+.formPoke__form button{
+    border-radius: 0 .1em .1em 0;
+    background-color: rgb(250, 52, 52);
+    color: rgb(250, 249, 246);
+    width: 6em;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.25);
+    border-color: transparent ;
+}
+
+.formPoke__select{
+    border-radius: .1em;
+    width: 16em;
+    height: 40px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.25);
+    text-align: center;
+    border-color: transparent;
+}
+ 
+@media (max-width: 576px){
+    .formPoke__form input{
+        border-radius: .5em 0 0 .5em;
+        width: 10em;
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    }
+    
+    .formPoke__form button{
+        border-radius: 0 .5em .5em 0;
+        width: 4em;
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+        
+    }
+    
+    .formPoke__select{
+        border-radius: .5em;
+        width: 14em;
+        height: 40px;
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+        border-color: transparent;
+        text-align: center;
+    
+    }
+
+}
+
